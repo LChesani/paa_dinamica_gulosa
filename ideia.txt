@@ -1,0 +1,1 @@
+fazer os algoritimos sem programação dinamica e comparar o tempo
