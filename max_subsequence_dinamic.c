@@ -1,9 +1,9 @@
 #include <stdio.h>
-int main(void){ //basicamente
-    for(int i = 0, n; scanf("%d", &n) && n; i++){  
+int main(void){
+    for(int i = 0, n; scanf("%d", &n) && n; i++){ 
         int max = 1, arr[n], sizes[n]; //size é o vetor dinamico, pode ser usado para ver os "maiores provisorios" ao final também
         for(int i = 0; i < n; i++){
-            scanf(" %d", &arr[i]);
+            scanf("%d", &arr[i]);
             sizes[i] = 1; //minimo 1
         }
         for(int i = 0; i < n; i++)
